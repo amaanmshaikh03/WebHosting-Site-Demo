@@ -1,0 +1,275 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-10 main-box main-box">
+      <div class="text-center">
+        <form action="/register" method="post">
+          <a href="/">
+            <img id="logoImg" src="./img/logo.png" />
+          </a>
+          <h2>Create an Account</h2>
+          <div class="form-in-top">
+
+            {{#if alerts}}
+              {{#each alerts}}
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  {{this.msg}}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+              {{/each}}
+            {{/if}}
+
+            {{#if emails}}
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                  {{this.emails}}
+                  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>  
+            {{/if}}
+
+            <div class="personalInfo">
+              <span>Personal Information</span>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <div id="icon">
+                  <input
+                    id="firstName"
+                    type="text"
+                    name="firstName"
+                    value="{{firstName}}"
+                    class="form-control"
+                    placeholder="First Name"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-6">
+                <div id="icon">
+                  <input
+                    id="lastName"
+                    type="text"
+                    name="lastName"
+                    value="{{lastName}}"
+                    class="form-control"
+                    placeholder="Last Name"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-6">
+                <div id="icon">
+                  <input
+                    for="email"
+                    id="email"
+                    type="text"
+                    name="email"
+                    value="{{email}}"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                    placeholder="Email Address"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-6">
+                <div id="icon">
+                  <input
+                    id="phoneNumber"
+                    type="number"
+                    name="phone"
+                    value="{{phone}}"
+                    class="form-control"
+                    placeholder="Phone Number"
+                    autofocus
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="BillingAddr">
+              <span>Billing Address</span>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div>
+                  <input
+                    id="company"
+                    type="text"
+                    class="form-control"
+                    name="company"
+                    value="{{company}}"
+                    placeholder="Company Name (Optional)"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div>
+                  <input
+                    id="streetAddr"
+                    type="text"
+                    class="form-control"
+                    name="streetAddress"
+                    value="{{streetAddress}}"
+                    placeholder="Street Address"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div>
+                  <input
+                    id="streetAddress2"
+                    type="text"
+                    class="form-control"
+                    name="streetAddress2"
+                    value="{{streetAddress2}}"
+                    placeholder="Street Address2"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-4">
+                <div>
+                  <input
+                    id="city"
+                    type="text"
+                    class="form-control"
+                    name="city"
+                    value="{{city}}"
+                    placeholder="city"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-5">
+                <div>
+                  <select id="select" name="state" value="{{state}}" class="form-control">
+                    <option value="state" name="state">-</option>
+                    <option value="Alberta" name="state">Alberta</option>
+                    <option value="British Columbia" name="state">British Columbia</option>
+                    <option value="Manitoba" name="state">Manitoba</option>
+                    <option value="New Brunswick" name="state">New Brunswick</option>
+                    <option value="Newfoundland" name="state">Newfoundland</option>
+                    <option value="Northwest Territories" name="state">Northwest Territories</option>
+                    <option value="Nova Scotia" name="state">Nova Scotia</option>
+                    <option value="Nunavut" name="state">Nunavut</option>
+                    <option value="Ontario" name="state">Ontario</option>
+                    <option value="Prince Edward Island" name="state">Prince Edward Island</option>
+                    <option value="Quebec" name="state">Quebec</option>
+                    <option value="Saskatchewan" name="state">Saskatchewan</option>
+                    <option value="Yukon" name="state">Yukon</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-3">
+                <div>
+                  <input
+                    id="postCode"
+                    type="text"
+                    name="postCode"
+                    value="{{postCode}}"
+                    class="form-control"
+                    placeholder="Postcode"
+                    autofocus
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <input
+                  id="tax"
+                  name="tax"
+                  type="text"
+                  value="{{tax}}"
+                  class="form-control"
+                  placeholder="Tax ID (Optional)"
+                  autofocus
+                />
+              </div>
+            </div>
+            <div class="accountSecurity">
+              <span>Account Security</span>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <input
+                  for="password"
+                  id="password"
+                  type="password"
+                  name="password"
+                  value="{{password}}"
+                  class="form-control"
+                  placeholder="Password"
+                  autofocus
+                />
+              </div>
+              <div class="col-6">
+                <input
+                  for="confirmPassword"
+                  id="confirmPassword"
+                  name="confirmPassword"
+                  value="{{confirmPassword}}"
+                  type="password"
+                  class="form-control"
+                  placeholder="Confirm Password"
+                  autofocus
+                />
+              </div>
+              <div class="col-12">
+                <div class="progress">
+                  <div
+                    id="progress-bar"
+                    role="progressbar"
+                    style="width: 100%"
+                    aria-valuenow="25"
+                    aria-valuemin="50"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+                <span id="passwordMsg" class="text-center text-muted">Password
+                  Strength: Enter a Password</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <div class="bottomBox">
+                  <h4>Terms of Service</h4>
+                </div>
+                <div class="text-center termsOfService">
+                  <input class="check" id="checkBox" for="checkBox" value="{{checkBox}}" type="checkbox" name="checkBox" onchange="YnCheck(this);"/>
+                  By submitting this order, you agree to the
+                  <a href="">Terms of Service</a>
+                  and
+                  <a href="">Privacy Policy.</a>
+                  You agree that WHC will automatically attempt to renew your
+                  services prior to their next due date unless you request
+                  otherwise from your Client Area.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <input
+                  type="submit"
+                  id="register"
+                  class="btn btn-lg btn-primary"
+                  value="Register"
+                />
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="register-bottom text-start">
+          Already a client?
+          <a
+            class="text-secondary text-muted"
+            href="login"
+          >Log in</a>
+          <a href="" class="float-end">
+            <span class="material-icons">autorenew</span>
+            FR
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,149 @@
+<main>
+  <div class="container-fluid" id="main_pic">
+    <div class="container" id="main_banner_container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12" id="main_texts">
+          <h1>Canadian Web Hosting</h1>
+          <h2>Your Website's Perfect Home</h2>
+          <p>Get your new project online today on one of Canada’s fastest,
+            <br />
+            most reliable, and most secure web hosting platforms.</p>
+          <input
+            type="submit"
+            id="login"
+            class="btn btn-lg btn-primary"
+            value="Compare Web Hosting Plans"
+            href=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container text-center main_container_three mainIs">
+    <div class="row justify-content-md-center" id="colBg">
+      
+      {{#each admins}}
+      <div class="col-3 shadow-lg enterprise">
+        {{#if mostPopular2}}
+        <div class="mostPopular">{{mostPopular2}}</div>
+        {{/if}}
+        <div><img src={{dataReceived}}></div>
+  {{!-- <form action="/plan" method="POST"> --}}
+        <h2 id="enterprise" name="enterprise" value="enterprise">{{enterprise}}</h2>
+        <text id="description" name="description" value="description">{{description}}</text>
+        <p id="lowPrice">As low as</p>
+        <span id="dollar">
+          <b name="dollar" value="dollar">C${{price}}</b>
+          /mo
+        </span>
+  
+
+{{#if logInStatus}}
+          <a href="/cart/{{this._id}}" class="btn btn-lg btn-block btn-primary" id="addBtn">Add to
+          Cart</a>
+{{/if}}
+{{#if loginAdmin}}
+           <a href="/cart/{{this._id}}" class="btn btn-lg btn-block btn-primary" id="addBtn">Add to
+          Cart</a>
+{{/if}}
+         <a href="/cart/{{this._id}}" class="btn btn-lg btn-block btn-primary" id="addBtn">Add to
+          Cart</a>
+{{!-- </form> --}}
+
+        <div class="starterList text-start">
+          <ul>
+            <li>
+              <img src="./img/starter1.png" />
+              <strong>ENTERPRISE</strong>
+              Performance
+              <img src="./img/thunder.png" />
+              <img src="./img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="./img/starter2.png" />
+              <strong>Unlimited</strong><a href=""><sup>1</sup></a>
+              Websites
+            </li>
+            <li>
+              <img src="./img/starter3.png" />
+              <strong>Unlimited</strong><a href=""><sup>1</sup></a>
+              Space & Traffic
+            </li>
+            <li>
+              <img src="./img/starter4.png" />
+              <strong>Powered</strong>
+              by
+              <a href="" id="renewEnergy">renewable energy</a>
+            </li>
+            <li>
+              <img src="./img/starter5.png" />
+              <strong>All-Inclusive</strong>
+              STARTER Email
+              <img src="./img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="./img/starter6.png" />
+              <strong>Standard</strong>
+              Hosting Features
+              <img src="./img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="./img/starter7.png" />
+              <strong>Free</strong>
+              Site Migration
+              <img src="./img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="./img/starter2.png" />
+              <strong>Free</strong>
+              Domain<a href=""><sup>2</sup></a>
+            </li>
+            <li>
+              <img src="./img/starter1.png" />
+              <strong>Optimized</strong>
+              forWordPress
+              <img src="./img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="./img/starter7.png" />
+              <strong>Premium</strong>
+              Features
+              <img src="./img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="./img/starter5.png" />
+              <strong>Email Marketing</strong>
+              (1000 contacts)
+            </li>
+            <li>
+              <img src="./img/starter7.png" />
+              <strong>SSL</strong>
+              Certificate
+            </li>
+            <li>
+              <img src="./img/starter2.png" />
+              <strong>Dedicated</strong>
+              IP<a href=""><sup>3</sup></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      {{/each}}
+
+
+
+
+
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col text-center">
+      <button id="footBtn">View Geeky Details</button>
+      <button id="footBtn2">How is Web Hosting Plans working?</button>
+
+    </div>
+
+  </div>
+</main>

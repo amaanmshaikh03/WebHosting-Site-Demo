@@ -1,0 +1,85 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 align-items-center loginBox">
+      <div class="card">
+        <form action="/login" method="post" class="cardBox">
+          <a href="/">
+            <img src="./img/logo.png" id="logo" />
+          </a>
+          <h2>Sign in to WHC</h2>
+
+          {{#if alert}}
+            {{#each alert}}
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                {{this.msg}}
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+            {{/each}}
+          {{/if}}
+
+          {{#if emails}}
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                {{this.emails}}
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+          {{/if}}
+
+          {{#if passwords}}
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                {{this.passwords}}
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+          {{/if}}
+
+          <input id="email" name="email" type="text" value="{{email}}" placeholder="Enter email" autofocus />
+          <input id="password" name="password" value="{{password}}" type="password" placeholder="Password" />
+
+          <div class="text-center checkForgot">
+            <input class="check" type="checkbox" />
+            Remember Me
+            <div class="col forgot">
+              <a class="text-muted" href="">Forgot Password?</a>
+            </div>
+          </div>
+
+          <input
+            type="submit"
+            id="login"
+            class="btn btn-lg btn-primary"
+            value="Log In"
+          />
+        </form>
+        <div class="text-left signUp">
+          New to WHC?
+          <a class="text-muted" href="register">Sign up</a>
+          <span class="material-icons">autorenew</span>
+          <a href="">FR</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

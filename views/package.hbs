@@ -1,0 +1,228 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBg">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <img src="./img/home.svg" class="home">
+                        <a class="navbar-brand" href="/"></a>
+                    </img>
+                        <ul class="navbar-nav" id="fonts">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="title" aria-current="page" href="#">My Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="title" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Domains
+                                </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">My Domains</a></li>
+                                        <li><a class="dropdown-item" href="#">Renew Domains</a></li>
+                                        <li><a class="dropdown-item" href="#">Register a New Domain</a></li>
+                                        <li><a class="dropdown-item" href="#">Transfer Domains to Us</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="title" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Billing
+                                </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Invoices</a></li>
+                                        <li><a class="dropdown-item" href="#">My Quotes</a></li>
+                                        <li><a class="dropdown-item" href="#">Mass Payment</a></li>
+                                        <li><a class="dropdown-item" href="#">Payment Methods</a></li>
+                                        <li><a class="dropdown-item" href="#">Add Funds</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="title" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Support
+                                </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Knowledgebase</a></li>
+                                        <li><a class="dropdown-item" href="#">Open New Tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">View My Tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">Network Status</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="title" aria-current="page" href="#">Affiliates</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        <div class="container-fluid" id="mainContainer">
+            </div>
+            <div class="row">
+                <div class="col-md-12 hi">
+                    <h1>Hi, {{user.firstName}} {{user.lastName}}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="clientAreaBg">
+                    <p><strong>WHC</strong> / Admin Area</p>
+                </div>
+            </div>
+        </div>
+
+{{#if error}}
+              <div
+                class="alert alert-warning alert-dismissible fade show"
+                role="alert"
+              >
+                {{error}}
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="alert"
+                  aria-label="Close"
+                ></button>
+              </div>
+{{/if}}
+
+<div class="container text-center main_container_three">
+
+  <div class="row">
+    <div class="col-md-3"></div>
+
+    <div class="col-md-6 shadow-lg enterprise">
+
+      <form action="/package" enctype="multipart/form-data" method="POST">
+
+        <div class="mostPopular">
+          <input
+            type="checkbox"
+            value="Most Popular"
+            id="mostPopular2"
+            name="mostPopular2"
+          />
+          <label for="mostPopular2">Most Popular</label>
+        </div>
+
+        <input
+          type="file"
+          name="profile_pt"
+          id="profile_pt"
+          onchange="previewImage(this,'View_area')"
+        />
+        <div id="View_area"></div>
+
+        <input
+          type="text"
+          id="enterprise"
+          for="enterprise"
+          name="enterprise"
+          placeholder="Title"
+        />
+        <textarea
+          name="description"
+          id="description"
+          cols="36"
+          rows="2"
+          placeholder="Description"
+        ></textarea>
+
+        <p id="lowPrice">As low as</p>
+        <span id="dolloar">
+          C$
+          <input
+            type="text"
+            name="price"
+            id="price"
+            for="price"
+            placeholder="Price"
+          />
+
+          /mo
+        </span>
+
+        <a href="" class="btn btn-lg btn-block btn-primary" id="addBtn">Add to
+          Cart</a>
+        <div class="starterList text-start">
+          <ul>
+            <li>
+              <img src="/img/starter1.png" />
+              <strong>ENTERPRISE</strong>
+              Performance
+              <img src="/img/thunder.png" />
+              <img src="/img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="/img/starter2.png" />
+              <strong>Unlimited</strong><a href=""><sup>1</sup></a>
+              Websites
+            </li>
+            <li>
+              <img src="/img/starter3.png" />
+              <strong>Unlimited</strong><a href=""><sup>1</sup></a>
+              Space & Traffic
+            </li>
+            <li>
+              <img src="/img/starter4.png" />
+              <strong>Powered</strong>
+              by
+              <a href="" id="renewEnergy">renewable energy</a>
+            </li>
+            <li>
+              <img src="/img/starter5.png" />
+              <strong>All-Inclusive</strong>
+              STARTER Email
+              <img src="/img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="/img/starter6.png" />
+              <strong>Standard</strong>
+              Hosting Features
+              <img src="/img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="/img/starter7.png" />
+              <strong>Free</strong>
+              Site Migration
+              <img src="/img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="/img/starter2.png" />
+              <strong>Free</strong>
+              Domain<a href=""><sup>2</sup></a>
+            </li>
+            <li>
+              <img src="/img/starter1.png" />
+              <strong>Optimized</strong>
+              forWordPress
+              <img src="/img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="/img/starter7.png" />
+              <strong>Premium</strong>
+              Features
+              <img src="/img/infoIcon.png" />
+            </li>
+            <li>
+              <img src="/img/starter5.png" />
+              <strong>Email Marketing</strong>
+              (1000 contacts)
+            </li>
+            <li>
+              <img src="/img/starter7.png" />
+              <strong>SSL</strong>
+              Certificate
+            </li>
+            <li>
+              <img src="/img/starter2.png" />
+              <strong>Dedicated</strong>
+              IP<a href=""><sup>3</sup></a>
+            </li>
+          </ul>
+        </div>
+        <input
+          type="submit"
+          id="upload"
+          class="btn btn-lg btn-warning"
+          value="Upload"
+        />
+      </form>
+    </div>
+
+    <div class="col-md-3"></div>
+  </div>
+</div>

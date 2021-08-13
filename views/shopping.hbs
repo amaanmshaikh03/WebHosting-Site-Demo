@@ -1,0 +1,191 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navBg">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                    <img src="./img/home.svg" class="home">
+                        <a class="navbar-brand" href="/"></a>
+                    </img>
+                        <ul class="navbar-nav" id="fonts">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="title" aria-current="page" href="#">My Services</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="title" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Domains
+                                </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">My Domains</a></li>
+                                        <li><a class="dropdown-item" href="#">Renew Domains</a></li>
+                                        <li><a class="dropdown-item" href="#">Register a New Domain</a></li>
+                                        <li><a class="dropdown-item" href="#">Transfer Domains to Us</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="title" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Billing
+                                </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Invoices</a></li>
+                                        <li><a class="dropdown-item" href="#">My Quotes</a></li>
+                                        <li><a class="dropdown-item" href="#">Mass Payment</a></li>
+                                        <li><a class="dropdown-item" href="#">Payment Methods</a></li>
+                                        <li><a class="dropdown-item" href="#">Add Funds</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="title" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Support
+                                </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Knowledgebase</a></li>
+                                        <li><a class="dropdown-item" href="#">Open New Tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">View My Tickets</a></li>
+                                        <li><a class="dropdown-item" href="#">Network Status</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" id="title" aria-current="page" href="#">Affiliates</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="row">
+                <div class="col-md-12 hi">
+                    <h1>Hi, {{user.firstName}} {{user.lastName}}</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3" id="clientAreaBg">
+                    <p><strong>WHC</strong> / Client Area</p>
+                </div>
+            </div>
+
+    <div class="container">
+        <div class="row items">
+            <div class="col-lg-8 col-mg-12">
+                <div class="session1 shadow-lg">
+                    <h3>
+                        <i><img src="../public/img/webHosting.png" alt=""></i>
+                        Web Hosting: WEB ENTERPRISE
+                    </h3>
+    
+                    <div class="row products">
+                        <button type="button" class="btn btn-light col-md-3" onclick="oneMonth()">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div id="1month">
+                                            <small>1 month</small>
+                                        </div>
+                                        <div class="large" >
+                                            <strong><span>$<text id="oneMonthPrice">20.99</text></span></strong>
+                                        </div>
+                                        <div class="month"><strong>/month</strong></div>                          
+                                    </div>
+                                </div>
+                        </button>
+
+                        <button class="btn btn-light col-md-3" onclick="oneMonth2()">    
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div id="12months">
+                                            <small>12 months</small>
+                                        </div>
+                                        <div class="large">
+                                            <strong><span>$<text id="oneMonthPrice2">13.29</text></span></strong>
+                                        </div>
+                                        <div class="month"><strong>/month</strong></div>
+                                        <div>
+                                            <span class="bg-warning">SAVE <text id="discount2">37</text>%</span>
+                                        </div>                              
+                                        <del>$<text id="originPrice">20.99</text></del>
+                                    </div>
+                                </div>
+                        </button>
+            
+                        <button class="btn btn-light col-md-3" onclick="oneMonth3()">    
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div id="24months">
+                                            <small>24 months</small>
+                                        </div>
+                                        <div class="large">
+                                            <strong><span>$<text id="oneMonthPrice3">12.59</text></span></strong>
+                                        </div>
+                                        <div class="month"><strong>/month</strong></div>
+                                        <div><span class="bg-warning">SAVE 40%</span></div>                              
+                                        <del>$<text id="originPrice">20.99</text></del>
+                                    </div>
+                                </div>
+                        </button>
+            
+                        <button class="btn btn-light col-md-3" onclick="oneMonth4()">                          
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div id="36months">
+                                            <small>36 months</small>
+                                        </div>
+                                        <div class="large">
+                                           <strong><span>$<text id="oneMonthPrice4">11.89</text></span></strong>
+                                        </div>
+                                        <div class="month"><strong>/month</strong></div>
+                                        <div><span class="bg-warning">SAVE 43%</span></div>                              
+                                        <del>$<text id="originPrice">20.99</text></del>
+                                    </div>
+                                </div>
+                        </button>
+    
+                    </div>
+    
+                    <div class="row description">
+                        <p>Plan will renew on 2024-07-26 @ $16.99/month</p>
+                    </div>
+                </div>
+                </div>
+
+            <div class="col-lg-4 col-mg-12">
+                <div class="session1 shadow-lg">
+                    <div class="box">
+                        <h3 id="orderSummary">Order Summary</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <div class="float-end text-end" id="totalPrices" value="">
+                                    <strong class="text-muted">$0</strong>
+                                </div>
+                                <div>
+                                    <strong>WEB ENTERPRISE</strong>
+                                </div>
+                                <div id="totalMonth">
+                                    <small class="text-muted">
+                                        <strong>0 month</strong>
+                                    </small>
+                                </div>
+                            </li>
+                            <li class="list-group-item bg-light">
+                                <div class="float-end text-danger" id="discount">
+                                    <strong>$0</strong>
+                                </div>
+                                <span class="text-muted">
+                                    Promo:WEBENT
+                                </span>
+                            </li>
+                            <li class="list-group-item bottoms justify-content-between d-flex">
+                                <span>Total</span>
+                                <div id="total">
+                                    <strong>$0</strong>
+                                </div>
+                            </li>
+                        </ul>
+                        <small class="text-muted cad justify-content-center">
+                            <img id="flag" src="/img/canada.png">
+                            All prices are in CAD
+                        </small>
+                        <a href="/cart/delete-cart/{{id}}" name="checkOut" id="checkOut" class="btn btn-lg btn-primary">Checkout Now</a>
+                        <a href="cart" id="shoppingList" class="btn btn-lg btn-warning" id="">Shopping List</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
