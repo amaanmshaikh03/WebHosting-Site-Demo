@@ -1,0 +1,166 @@
+@media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.1em;
+    }
+  }
+
+
+#mainContainer{
+    height: 100%;
+    margin: 30px 40px;
+}
+
+#box{
+    padding:0;
+}
+
+.hi{
+    margin-left: 100px;
+}
+
+#clientAreaBg{
+    background-color: rgba(202, 244, 255, 0.606);
+    width: 100%;
+    height: 2em;
+    padding-top: 3px;
+}
+
+#navBg{
+    background: linear-gradient(to right, red, blue);
+    margin-bottom: 20px;
+}
+
+.home{
+    margin-left: 30px;
+}
+
+#title {
+    color: white;
+}
+
+#clientAreaBg p{
+    text-align: left;
+    margin-left: 100px;
+}
+
+#imgBg{
+    background-image:url(/img/clientPage_imgBg.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.imgBg_sub{
+    margin: 5em;
+}
+
+.imgBg_sub h1{
+    color: white;
+}
+
+.imgBg_sub p{
+    text-align: left;
+    color: white;
+}
+
+.fourServices{
+    margin-bottom: 100px;
+}
+
+#services{
+    background-image:url(/img/service.svg);
+    background-repeat:no-repeat;
+    background-position: 30px;
+    background-color: whitesmoke;
+    height: 5em;
+    border-right: 1px solid rgb(225, 225, 225);
+}
+
+#domains{
+    background-image:url(/img/domain.svg);
+    background-repeat:no-repeat;
+    background-position: 30px;
+    background-color: whitesmoke;
+    height: 5em;
+    border-right: 1px solid rgb(225, 225, 225);
+}
+
+#tickets{
+    background-image:url(/img/ticket.svg);
+    background-repeat:no-repeat;
+    background-position: 30px;
+    background-color: whitesmoke;
+    height: 5em;
+    border-right: 1px solid rgb(225, 225, 225);
+}
+
+#invoices{
+    background-image:url(/img/invoice.svg);
+    background-repeat:no-repeat;
+    background-position: 30px;
+    background-color: whitesmoke;
+    height: 5em;
+}
+
+#services:hover{
+    background-color: rgb(111, 204, 255);
+}
+
+#domains:hover{
+    background-color: rgb(111, 204, 255);
+}
+
+#tickets:hover{
+    background-color: rgb(111, 204, 255);
+}
+
+#invoices:hover{
+    background-color: rgb(111, 204, 255);
+}
+
+#services a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#domains a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#tickets a{
+    text-decoration-line: none;
+    color: black;
+}
+
+#invoices a{
+    text-decoration-line: none;
+    color: black;
+}
+
+div #digit{
+    font-size: 2em;
+    width: 100%;
+    margin-left: 80px;
+}
+
+div #fonts{
+    font-size: 1.2em;
+    margin: 25px 0 0 25px;
+    text-align: center;
+}

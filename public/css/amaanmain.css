@@ -1,0 +1,563 @@
+#caComNet a{
+    text-decoration: none;
+}
+#sub{
+    margin-left: 15px;
+}
+#caComNet img{
+    width: 3%;
+    margin-left: 15px;
+}
+
+#caComNet #com{
+    width: 6%;
+}
+
+#caComNet span{
+    color: black;
+    font-size: 0.9em;
+}
+
+#searchBtn{
+    border-radius: 0 5px 5px 0;
+    width: 150px;
+}
+#main_network {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+#search-row{
+    margin: 0px 0 50px 0;   
+    font-size: large;
+}
+#searchBar{
+    height: 3em;
+    border-radius: 5px 0 0 5px;
+}
+#caComNet{
+    margin-top: 15px;
+}
+#wordPressIconBtn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(0, 145, 255)
+}
+
+#wordPressIconBtn:hover{
+    background-color: rgb(80, 179, 255);
+}
+
+#carouselExampleDark{
+    margin-top: 120px;
+}
+
+.carousel-inner h1{
+    margin-bottom: 20px;
+}
+
+.carousel-inner h1, h3, p{
+    text-align: left;
+}
+
+.star{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.carousel-inner > h1, span{
+    font-size: 0.5em;
+    color: rgba(216, 73, 73, 0.469);
+}
+
+#readMore{
+   border-radius: 5px;
+   background-color:rgba(255, 255, 255, 0);
+   color: white;
+   outline:rgb(43, 43, 172);
+   padding: 5px;
+   width: 200px;
+   height: 40px;
+   border-style: solid;
+   border-color: white;
+   margin-top: 10px;
+}
+
+#readMore:hover{
+    background-color: white;
+    color: black;
+}
+
+.read{
+    text-align: left;
+}
+
+#whyChoose{
+    margin-top: 50px;
+    
+}
+
+#whyChoose h2, p{
+    text-align: center;
+}
+
+#whyChoose h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#whyChoose h2{
+    margin-top: 30px;
+}
+
+#advRedContainer{
+    padding: 0;
+}
+
+#advRed{
+    width: 100%;
+}
+
+#WHCblog {
+    background-color: rgb(179, 66, 66);
+    height: 100%;
+}
+
+#WHCblog h1{
+    font-size: 3em;
+    margin-top: 60px;
+}
+
+.card{
+    margin: 20px 0 100px 0;
+}
+
+.tag{
+    list-style-type: none;
+    padding: 0;
+}
+
+.tag a{ 
+    color: black;
+    font-weight: 600;
+    background-color: rgb(211, 231, 249);
+    border-radius: 30px;
+    padding: 0 14px;
+    font-size: 0.9em;
+    text-decoration: none;   
+}
+
+#tag2 li{
+    display: inline;
+    margin-right: 10px;
+}
+
+.card-text{
+    text-align: left;
+}
+
+#beforeFooter{
+    background-color: rgb(57, 17, 165);
+    color: white;
+    height: 300px;
+}
+
+#textFoot{
+    margin: 80px 0 20px 0;
+}
+
+#footBtn{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    border: 3px solid white;
+}
+ 
+ #footBtn:hover{
+     background-color: white;
+     color: black;
+}
+
+#footerFirst{
+    background-color: rgba(6, 21, 39, 0.921);
+    height: 100vp;
+}
+
+#footerFirst li{
+    list-style: none;
+}
+
+#footerFirst li a{
+    text-decoration: none;
+    color: rgb(187, 62, 62);
+    font-size: 0.8em;
+}
+
+#footerFirst li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footerFirst li h5{
+    color: rgb(179, 73, 73);
+    margin-top: 50px;
+}
+
+#followUs{
+    font-size: 1.2em;
+    color: rgb(155, 89, 89);
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(131, 68, 68);
+    margin: 40px 0 40px 0;
+    
+}
+
+#snsBox{
+    margin:0 0 30px 30px;
+}
+
+#snsIcon{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.float-end{
+    display: flex;
+    margin-top: 10px;
+}
+
+#phoneLocation i{
+    color: rgb(202, 115, 115);
+    text-align: left;
+    font-style: normal;
+}
+
+#footerBtm{
+    background-color: rgba(5, 22, 43, 0.921);
+    height: 200px;
+}
+
+#footerBtm{
+    color: rgb(138, 66, 66);
+    height: 150px;
+}
+
+#footerBtm2{
+    margin-top: 30px;
+}
+
+#footerBtm2 img{
+    margin-left: 20px;
+}
+
+#footerImg{
+    width: 15%;
+}
+
+#footerUl li{
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 15px;
+    display: inline-flex;
+}
+#chooseSuperior{
+    width: 300px;
+    text-align: left;
+}
+
+#FindYour{
+    width: 300px;
+    text-align: left;
+    margin-left: 750px;
+}
+
+.text{
+    position:relative;
+}
+
+.text > img, .overlay-text{
+    position: absolute;
+}
+
+#mainImgFont1{
+    text-align: left;
+}
+
+#mainImgFont1 button {
+    margin-top: 5px;
+}
+
+#mainImgFont1 p {
+    margin-top: 10px;
+}
+
+#pharap p{
+    text-align: left;
+}
+
+#mainImgFont2{
+    text-align: left;
+}
+
+#mainImgFont2 button {
+    margin-top: 5px;
+}
+
+#mainImgFont2 p {
+    margin-top: 10px;
+}
+
+#introduction{
+    margin: 0 100px
+}
+
+#introduction > div > h2{
+    margin-top:20px;
+}
+
+#carouselExampleIndicators{
+    margin-bottom: 50px;
+}
+
+#webHostingBtn{
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(0, 145, 255)
+}
+
+#webHostingBtn:hover{
+    background-color: rgb(80, 179, 255);
+}
+
+#domainNameBtn{
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(255, 0, 47)
+}
+
+#domainNameBtn:hover{
+    background-color: rgb(255, 109, 109);
+}
+
+#webHostingIcon{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#webHostingIcon > p{
+    text-align: center;
+}
+
+#cloudServersIcon{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+@media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.7em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1.3em;
+    }
+  }
+  @media screen and (min-width: 2100px) {
+    body,
+    html {
+      font-size: 1.3em;
+    }
+  }
+#mainContainer{
+    height: 100%;
+    padding: 0;
+}
+#box{
+    padding:0;
+}
+.bg-custom-3 > li > a{
+    color: rgb(19, 81, 110);
+    font-size: 1em;
+}
+#bar{
+    color:rgb(145, 55, 55);
+}
+.bg-custom-3{
+    background-image: linear-gradient(0deg, #aa4848 0%, #aa5e5e 10%);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#clientArea{
+    margin-right: 120px;
+}
+.bg-custom-2 {
+    font-weight: 600;
+}
+#logo {
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+}
+.navbar-toggler {
+  margin-right: 35px;
+}
+.navbar-nav > .nav-link {
+  margin: 15px;
+}
+#hotDeals {
+  color: rgb(0, 26, 255);
+}
+#navbarNavAltMarkup {
+  justify-content: center;
+  text-align: left;
+  width: 0;
+}
+#blog {
+  width: 75px;
+}
+#log_in {
+  width: 150px;
+}
+
+
+#cloudServersIcon > p{
+    text-align: center;
+}
+
+#dedicatedIcon{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#dedicatedIcon > p{
+    text-align: center;
+}
+
+#wordPressIcon{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#wordPressIcon > p{
+    text-align: center;
+}
+
+#webHostingIconBtn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(0, 145, 255)
+}
+
+#webHostingIconBtn:hover{
+    background-color: rgb(80, 179, 255);
+}
+
+#banner1 {
+    background-color: rgb(255, 196, 48);
+    padding: 6px 60px;
+    display:inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+#banner2 {
+    background-color: rgb(255, 196, 48);
+    padding: 6px 60px;
+    display:inline-block;
+    width: 100%;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+#cloudSeversIconBtn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(0, 145, 255)
+}
+
+#cloudSeversIconBtn:hover{
+    background-color: rgb(80, 179, 255);
+}
+
+#dedicatedIconBtn{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    background-color:rgb(0, 145, 255)
+}
+
+#dedicatedIconBtn:hover{
+    background-color: rgb(80, 179, 255);
+}
+
+#footerUl a{
+    text-decoration: none;
+    color: rgb(131, 54, 54);
+}
+
+#legal, #policy{
+    text-decoration: none;
+    color: rgb(143, 37, 37);
+    padding: 20px;
+}

@@ -1,0 +1,207 @@
+@media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.1em;
+    }
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, red, blue);
+    font-family: sans-serif;
+  }
+
+.main-box{
+   background-color: white;
+   border-radius: 20px;
+}
+
+form{
+    margin: 30px;
+}
+
+#logoImg{
+    width: 15%;
+    margin: 30px 0;
+}
+
+#firstName, #lastName{
+    background-image: url(/img/person_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#email{
+    background-image: url(/img/email_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+#phoneNumber{
+    background-image: url(/img/call_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+}
+
+#email, #phoneNumber{
+    font-size: 1.2em;
+}
+
+#tax{
+    background-image: url(/img/corporate_fare_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+   font-size: 1.2em;
+}
+
+#password{
+    background-image: url(/img/lock_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.accountSecurity{
+    font-size: 20px;
+    color: rgb(18, 57, 111);
+    margin: 40px 0 20px;
+}
+
+.personalInfo{
+    font-size: 20px;
+    color: rgb(18, 57, 111);
+    margin: 50px 0 20px;
+}
+
+.BillingAddr{
+    font-size: 20px;
+    color: rgb(18, 57, 111);
+    margin: 40px 0 20px;
+}
+
+#companyName{
+    background-image: url(/img/business_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#streetAddr{
+    background-image: url(/img/location_on_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#streetAddr2{
+    background-image: url(/img/location_on_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#city{
+    background-image: url(/img/business_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#select{
+    background-image: url(/img/location_on_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#postCode{
+    background-image: url(/img/markunread_mailbox_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+}
+
+#passworkdMsg{
+    font-size: 1.1em;
+}
+
+.bottomBox{
+    background-color:rgb(255, 208, 208);
+    border-radius: 10px 10px 0 0;
+    color: rgb(155, 0, 0);
+    font-family: sans-serif;
+    padding: 5px 0;
+    margin-top: 30px;
+}
+
+.termsOfService{
+    padding: 15px;
+    border: 3px solid rgb(255, 208, 208);
+}
+
+.termsOfService a{
+    text-decoration: none;
+}
+
+#register{
+   width: 100%;
+   margin: 20px 0;
+}
+
+.register-bottom {
+    background-color: rgb(228, 228, 228);
+    padding: 25px 30px;
+    margin: 0 -12px;
+    font-size: 1.2em;
+    border-radius: 0 0 20px 20px;
+}
+
+.register-bottom a{
+    text-decoration: none;
+    color: rgb(114, 114, 114);
+}
+
+.errorContainer{
+    background-color:rgb(155, 0, 0);
+    padding: 2px;
+    margin-bottom: 25px;
+    display: none;
+}
+
+.error{
+    color:red;
+}
+

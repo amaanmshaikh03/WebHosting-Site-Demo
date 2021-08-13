@@ -1,0 +1,30 @@
+@media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.1em;
+    }
+  }
+
+th{
+    font-size: 1.6em;
+}
+
+td{
+    font-size:1.4em;
+}
+
+.table{
+    margin-top: 30px;
+}

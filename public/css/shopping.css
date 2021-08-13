@@ -1,0 +1,134 @@
+/* @media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.1em;
+    }
+  } */
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.col-md-3{
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    width: 100%;
+
+}
+
+.products{
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: .25rem;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+}
+
+.product{
+    display:block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color:#097ffa;
+    color:white;
+}
+
+.large{
+    font-size: 2em;
+}
+
+.month{
+    font-size: 1.5em;
+}
+
+.description{
+    padding-top: 10px;
+    color:rgb(189, 189, 189);
+}
+
+li{
+    list-style: none;
+}
+
+#flag{
+    width: 30px;
+    padding-right: 5px;
+    margin-top:-4px;
+    text-align: center;
+}
+
+.bottoms{
+    margin-bottom: 10px;
+}
+
+.cad{
+    text-align: center;
+    margin-left: 85px;
+    text-align: center;
+}
+
+#checkOut{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.session1{
+    padding: 20px;
+}
+
+.session2{
+    padding: 20px;
+}
+
+.hi{
+    padding-top: 30px;
+}
+
+#orderSummary{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#shoppingList{
+    width: 100%;
+    margin-top: 10px;
+    color:white;
+}

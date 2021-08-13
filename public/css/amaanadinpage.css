@@ -1,0 +1,419 @@
+@media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.1em;
+    }
+  }
+
+
+#mainContainer{
+    height: 100%;
+    margin: 30px 40px;
+}
+
+#box{
+    padding:0;
+}
+
+.hi{
+    margin-left: 100px;
+}
+
+#clientAreaBg{
+    background-color: rgba(202, 244, 255, 0.606);
+    width: 100%;
+    height: 2em;
+    padding-top: 3px;
+}
+
+#navBg{
+    background: linear-gradient(to right, red, blue);
+}
+
+.home{
+    margin-left: 30px;
+}
+
+#title {
+    color: white;
+}
+
+#clientAreaBg p{
+    text-align: left;
+    margin-left: 100px;
+}
+
+#imgBg{
+    background-image:url(/img/clientPage_imgBg.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.imgBg_sub{
+    margin: 5em;
+}
+
+.imgBg_sub h1{
+    color: white;
+}
+
+.imgBg_sub p{
+    text-align: left;
+    color: white;
+}
+
+.fourServices{
+    margin-bottom: 100px;
+}
+
+#services{
+    background-image:url(/img/service.svg);
+    background-repeat:no-repeat;
+    background-position: 300px center;
+    background-color: whitesmoke;
+    height: 5em;
+    border-right: 1px solid rgb(225, 225, 225);
+}
+
+#services:hover{
+    background-color: rgb(111, 204, 255);
+}
+
+#services a{
+    text-decoration-line: none;
+    color: black;
+}
+
+div #digit{
+    font-size: 2em;
+    width: 100%;
+    margin-left: 80px;
+}
+
+div #fonts{
+    font-size: 0.8em;
+    margin-left: 60px;
+}
+
+div #fonts-btn{
+    text-align: center;
+    margin-top:35px;
+    margin-left:100px;
+}
+
+/* @media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1.2em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.3em;
+    }
+  }
+
+  #mainContainer{
+    height: 100%;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+#box{
+    padding:0;
+}
+
+.bg-custom-3 > li > a{
+    color: rgb(45, 45, 45);
+    font-size: 0.9em;
+}
+
+#bar{
+    color:rgb(200, 200, 200);
+}
+
+.bg-custom-3{
+    background-image: linear-gradient(0deg, #ffe1e1 0%, #fff6f6 10%);
+    font-family: sans-serif;
+}
+
+#clientArea{
+    margin-right: 110px;
+}
+
+.bg-custom-2 {
+    font-weight: 700;
+}
+
+#logo {
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.navbar-toggler {
+  margin-right: 30px;
+}
+
+.navbar-nav > .nav-link {
+  margin: 10px;
+}
+
+#hotDeals {
+  color: red;
+}
+
+#navbarNavAltMarkup {
+  justify-content: center;
+  text-align: left;
+  width: 0;
+}
+
+#blog {
+  width: 70px;
+}
+
+#mainBanner{
+    width: 100%;
+}
+
+#main_pic{
+    padding: 100px;
+    margin: 0;
+    background-image:url(/img/smallBusiness.png);
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+
+#main_texts{
+    color: white;
+}
+
+#main_texts h2{
+    margin: 10px 0 30px 0;
+}
+
+#main_texts input{
+    margin-top: 20px;
+}
+
+#starter{
+    margin-right: 30px;
+    background-color: white;
+    padding-top: 70px;
+    margin-top: 30px;
+}
+
+.pro{
+    margin-right: 30px;
+    background-color: white;
+}
+
+#proIcon{
+    margin-top: 20px;
+}
+
+.enterprise{
+    margin-right: 30px;
+    background-color: white;
+    padding-top: 40px;
+}
+
+#lowPrice{
+    font-size: 0.9em;
+    color:rgb(125, 125, 125);
+    margin-bottom: 0;
+}
+
+#dolloar b{
+    color: rgb(208, 1, 1);
+    font-size: 4em;
+}
+
+#addBtn{
+    width: 100%;
+    margin: 20px 0 30px 0;
+}
+
+.starterList ul{
+    list-style: none;
+}
+
+#renewEnergy{
+    color: black;
+}
+
+.mostPopular{
+    background-color: rgb(192, 3, 3);
+    color: white;
+    padding: 10px 50px;
+    margin: -85px 80px 15px 80px;
+}
+
+#footBtn{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    padding: 10px 10px 10px 35px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    background-image: url(/img/visibility_black_24dp.svg);
+    background-repeat:no-repeat;
+    background-position: 5px center;
+}
+ 
+ #footBtn:hover{
+     background-color: rgb(45, 45, 45);
+     color: white;
+     background-image: url(/img/visibility_white_24dp.svg);
+     background-repeat:no-repeat;
+     background-position: 5px center;
+}
+
+#footBtn2{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    margin: 60px 0px 60px 0;
+    padding: 10px 10px 10px 35px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    background-image: url(/img/signal_cellular_alt_black_24dp.svg);
+    background-repeat:no-repeat;
+    background-position: 5px center;
+}
+ 
+ #footBtn2:hover{
+     background-color: rgb(45, 45, 45);
+     color: white;
+     background-image: url(/img/signal_cellular_alt_white_24dp.svg);
+     background-repeat:no-repeat;
+     background-position: 5px center;
+}
+
+#footerFirst{
+    background-color: rgba(8, 41, 81, 0.921);
+    height: 100vp;
+}
+
+#footerFirst li{
+    list-style: none;
+}
+
+#footerFirst li a{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    font-size: 0.8em;
+}
+
+#footerFirst li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footerFirst li h5{
+    color: white;
+    margin-top: 50px;
+}
+
+#followUs{
+    font-size: 1.2em;
+    color: white;
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(111, 111, 111);
+    margin: 40px 0 40px 0;
+    
+}
+
+#snsBox{
+    margin:0 0 30px 30px;
+}
+
+#snsIcon{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.float-end{
+    display: flex;
+    margin-top: 10px;
+}
+
+#phoneLocation i{
+    color: rgb(181, 181, 181);
+    text-align: left;
+    font-style: normal;
+}
+
+#footerBtm{
+    background-color: rgba(5, 22, 43, 0.921);
+    height: 150px;
+}
+
+#footerBtm{
+    color: white;
+}
+
+#footerBtm2{
+    margin-top: 30px;
+}
+
+#footerBtm2 img{
+    margin-left: 20px;
+}
+
+#legal, #policy{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#footerImg{
+    width: 15%;
+}
+
+#footerUl li{
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 15px;
+    display: inline-flex;
+}
+
+#footerUl a{
+    text-decoration: none;
+    color: white;
+} */

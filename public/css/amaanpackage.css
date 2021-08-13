@@ -1,0 +1,340 @@
+@media screen and (min-width: 769px) and (max-width: 1239px) {
+    body,
+    html {
+      font-size: 0.9em;
+    }
+  }
+  @media screen and (min-width: 1240px) and (max-width: 1999px) {
+    body,
+    html {
+      font-size: 1em;
+    }
+  }
+  @media screen and (min-width: 2000px) {
+    body,
+    html {
+      font-size: 1.1em;
+    }
+  }
+
+  #mainContainer{
+    height: 100%;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+#box{
+    padding:0;
+}
+
+.bg-custom-3 > li > a{
+    color: rgb(45, 45, 45);
+    font-size: 0.9em;
+}
+
+#bar{
+    color:rgb(200, 200, 200);
+}
+
+.bg-custom-3{
+    background-image: linear-gradient(0deg, #ffe1e1 0%, #fff6f6 10%);
+    font-family: sans-serif;
+}
+
+#clientArea{
+    margin-right: 110px;
+}
+
+.bg-custom-2 {
+    font-weight: 700;
+}
+
+#logo {
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.navbar-toggler {
+  margin-right: 30px;
+}
+
+.navbar-nav > .nav-link {
+  margin: 10px;
+}
+
+#hotDeals {
+  color: red;
+}
+
+#navbarNavAltMarkup {
+  justify-content: center;
+  text-align: left;
+  width: 0;
+}
+
+#blog {
+  width: 70px;
+}
+
+#mainBanner{
+    width: 100%;
+}
+
+#main_pic{
+    padding: 100px;
+    margin: 0;
+    background-image:url(/img/smallBusiness.png);
+    background-size: 100%;
+    margin-bottom: 100px;
+}
+
+#main_texts{
+    color: white;
+}
+
+#main_texts h2{
+    margin: 10px 0 30px 0;
+}
+
+#main_texts input{
+    margin-top: 20px;
+}
+
+.starter{
+    margin-right: 30px;
+    background-color: white;
+    padding-top: 70px;
+}
+
+.pro{
+    margin-right: 30px;
+    background-color: white;
+}
+
+#proIcon{
+    margin-top: 20px;
+}
+
+.enterprise{
+    border-radius: 2%;
+    background-color: white;
+    padding-top: 40px;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+
+#enterprise{
+    width: 318px;
+    margin: 10px 10px;
+    padding-left:10px;
+}
+#profile_pt{
+    margin: 20px 20px;
+}
+
+#lowPrice{
+    font-size: 0.9em;
+    color:rgb(125, 125, 125);
+    margin-bottom: 0;
+}
+
+#dolloar b{
+    color: rgb(208, 1, 1);
+    font-size: 2em;
+}
+
+#addBtn{
+    width: 100%;
+    margin: 20px 0 30px 0;
+}
+
+#upload{
+    width: 100%;
+    margin: 20px 0 30px 0;
+}
+
+.starterList ul{
+    list-style: none;
+}
+
+#renewEnergy{
+    color: black;
+}
+
+.mostPopular{
+    background-color: rgb(192, 3, 3);
+    color: white;
+    
+    margin: -25px 80px 0 80px;
+}
+
+#footBtn{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+    padding: 10px 10px 10px 35px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    background-image: url(/img/visibility_black_24dp.svg);
+    background-repeat:no-repeat;
+    background-position: 5px center;
+}
+ 
+ #footBtn:hover{
+     background-color: rgb(45, 45, 45);
+     color: white;
+     background-image: url(/img/visibility_white_24dp.svg);
+     background-repeat:no-repeat;
+     background-position: 5px center;
+}
+
+#footBtn2{
+    border-radius: 5px;
+    background-color:rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    margin: 60px 0px 60px 0;
+    padding: 10px 10px 10px 35px;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+    background-image: url(/img/signal_cellular_alt_black_24dp.svg);
+    background-repeat:no-repeat;
+    background-position: 5px center;
+}
+ 
+ #footBtn2:hover{
+     background-color: rgb(45, 45, 45);
+     color: white;
+     background-image: url(/img/signal_cellular_alt_white_24dp.svg);
+     background-repeat:no-repeat;
+     background-position: 5px center;
+}
+
+#footerFirst{
+    background-color: rgba(8, 41, 81, 0.921);
+    height: 100vp;
+}
+
+#footerFirst li{
+    list-style: none;
+}
+
+#footerFirst li a{
+    text-decoration: none;
+    color: rgb(138, 138, 138);
+    font-size: 0.8em;
+}
+
+#footerFirst li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#footerFirst li h5{
+    color: white;
+    margin-top: 50px;
+}
+
+#followUs{
+    font-size: 1.2em;
+    color: white;
+}
+
+#line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(111, 111, 111);
+    margin: 40px 0 40px 0;
+    
+}
+
+#snsBox{
+    margin:0 0 30px 30px;
+}
+
+#snsIcon{
+    width: 35px;
+    margin-left: 10px;
+}
+
+.float-end{
+    display: flex;
+    margin-top: 10px;
+}
+
+#phoneLocation i{
+    color: rgb(181, 181, 181);
+    text-align: left;
+    font-style: normal;
+}
+
+#footerBtm{
+    background-color: rgba(5, 22, 43, 0.921);
+    height: 150px;
+}
+
+#footerBtm{
+    color: white;
+}
+
+#footerBtm2{
+    margin-top: 30px;
+}
+
+#footerBtm2 img{
+    margin-left: 20px;
+}
+
+#legal, #policy{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+#footerImg{
+    width: 15%;
+}
+
+#footerUl li{
+    list-style: none;
+    margin-top: 30px;
+    padding-left: 15px;
+    display: inline-flex;
+}
+
+#footerUl a{
+    text-decoration: none;
+    color: white;
+}
+
+#View_area{
+    position:relative; 
+    width: 100%; 
+    height: 100%; 
+    color: black; 
+    border: 0px solid black; 
+    display:inline-block;
+}
+
+.mostPopular{
+    background-color: rgb(192, 3, 3);
+    color: white;
+    padding: 10px 50px;
+    margin: -25px 80px 0 80px;
+}
+
+#description{
+    padding-left: 10px;
+}
+
+#price{
+    padding-left: 10px;
+}
